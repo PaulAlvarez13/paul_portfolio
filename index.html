@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Paul Alvarez Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Paul Alvarez(20566346)">
+  <meta name="description" content="My Portfolio Website Assessment">
+  <meta name="keywords" content="keywords,here">
+  <link rel="icons" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/03e1906c51.js" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='style.css'>
+  <script src="https://kit.fontawesome.com/03e1906c51.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+      <nav>
+        <img alt src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#project-page">Projects</a></li>
+          <li><a href="#contact-page">Contacts</a></li>
+          <li><a href="#reflection">Reflection</a></li>
+          <li><i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Hello, World!</p>
+        <h1>I'm Paul Xavier Alvarez</h1>
+        <h2>Bachelor of Commerce Student</h2>
+        <h3>Double Majoring in Business Information System & Techonology</h3>
+        <h4>High level experience in event planning, management,<br>web design, and producing high quality work.</h4>
+      </div>
+    </div>
+
+</div>
+
+<!-- Social Media Links on Home Page -->
+<div class="social-menu">
+    <a href="https://www.facebook.com/paulxavier.alvarez/" class="fa fa-facebook"></a>
+    <a href="https://www.instagram.com/paulcito_paulcito/" class="fa fa-instagram"></a>
+    <a href="https://www.linkedin.com/in/paul-xavier-alvarez-b14b8720b/" class="fa fa-linkedin"></a>
+</div>
+
+<!-- About Page -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img alt src="images/aboutpic.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I’m a third year Bachelor of Commerce student majoring in Business Information Systems<br>
+        and Business Information Technology (double major) at Curtin University with a great passion<br> and interest
+        for project management, information systems as well as web development.<br> I’m also currently the 
+        Vice President of Curtin Filipino Students’ Society.</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+          <p class="tab-links" onclick="opentab('experience')"><b>Experience</b></p>
+          <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+            <li><span>Project Mananger Technical Skills</span><br>High level organisation skills regarding project and event planning</li>
+            <li><span>Leadership</span><br>High level leadership skills from executive roles, extracurricular activies and past jobs</li>
+            <li><span>Conflict Resolution</span><br>Can develop fast and creative solutions to keep project moving forward</li>
+            <li><span>Customer Service</span><br>Effective communication with customers</li>
+            <li><span>Organisational Skills</span><br>Can meet deadlines, resources, task dependices, team oriented, and time management</li>
+            <li><span>Software Creative skills</span><br>Microsoft Office, Visual Studio Code, Photoshop, Premiere Pro, and Illustrator</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>McDonald's Northam | Jan 2017 to Nov 2019</span><br>Adept and experienced in POS terminal use and cash handling</li>
+            <li><span>Project Manager of Curtin Filipino Student's Society | Aug 2021 to Dec 2022</span><br>High level managing skills regarding event planning, 
+            which lead to steady growth in attendance per event and an increase to overall attendee satisfaction</li>
+            <li><span>Vice President of Curtin Filipino Student's Society | Dec 2022 to Present</span><br>Impeccable judgment, ability to work in multiple departments 
+            and ability to make sound decisions in a fast-paced, dynamic setting</li>  
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Curtin University | March 2021 to Present</span><br>Bachelor of Commerce, Double Majoring in Business Information Systems and Technology</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Projects Page -->
+<div id="project-page">
+  <div class="project">
+    <div class="container">
+      <h1 class="sub-title">Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img alt src="images/week1.png">
+          <div class="layer">
+            <h5><b>HTML Page</b></h5>
+            <p>This is the first HTML project that I have completed during the first week of my unit ISYS3004, showing a simple HTML page.</p>
+            <p><br><b>List of Technologies used:</b> GitHub, GitHub Web Editor (to create/edit HTML) and GitHub Pages (to deploy the website).</p>
+            <a href="https://paulalvarez13.github.io/ISYS3004/"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img alt src="images/webdesign.png">
+          <div class="layer">
+            <h5><b>HTML Web Page Design</b></h5>
+            <p>This project showcases the styling of HTML page using CSS.</p>
+            <p><br><b>List of Technologies used:</b> TextEdit, GitHub, GitHub Web Editor (to create/edit HTML, CSS and JavaScript files) and GitHub Pages (to deploy the website).</p>
+            <a href="https://paulalvarez13.github.io/webpagedesign/"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img alt src="images/rps.png">
+          <div class="layer">
+            <h5><b>Rock, Paper, Scissors</b></h5>
+            <p>This project showcases a digital game of rock, paper, scissors 
+            with a text to speech function that speaks the outcome.</p>
+            <p><br><b>List of Technologies used:</b> GitHub, GitHub Web Editor (to create/edit HTML, CSS and JavaScript files) and GitHub Pages (to deploy the website).</p>
+            <a href="https://paulalvarez13.github.io/rps/"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+      <a></a>
+    </div>
+  </div>
+</div>
+
+<div class="projects">
+  <div class="container">
+    <div class="work-lists">
+      <div class="works">
+        <img alt src="images/flatland.png">
+        <div class="layers">
+          <h5><b>Flatland</b></h5>
+          <p>This project highlighted how to use an onclick to change
+            colour of the square and generate words.</p>
+          <p><br><b>List of Technologies used:</b> GitHub, GitHub Web Editor (to create/edit HTML, CSS and JavaScript files) and GitHub Pages (to deploy the website).</p>
+          <a href="https://paulalvarez13.github.io/flatland/"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="works">
+        <img alt src="images/todo.png">
+        <div class="layers">
+          <h5><b>To Do</b></h5>
+          <p>To-Do List showcases a To-do List maker with permanent storage functionality, where users can type an activity and tick a box once it’s done.</p>
+          <p><br><b>List of Technologies used:</b> Visual Studio Code, GitHub, GitHub Web Editor (to create/edit HTML, CSS and JavaScript files) and GitHub Pages (to deploy the website).</p>
+          <a href="https://paulalvarez13.github.io/todo/"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="works">
+        <img alt src="images/rss.png">
+        <div class="layers">
+          <h5><b>RSS Reader</b></h5>
+          <p>The RSS reader project is made to retrieve information from XML files and transforms both the files and the most recent website updates into a format that is easier to read.</p>
+          <p><br><b>List of Technologies used:</b> Visual Studio Code, GitHub, GitHub Web Editor (to edit JavaScript) and GitHub Pages (to deploy the website).</p>
+          <a href="https://paulalvarez13.github.io/rss_reader/"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Page -->
+<div id="contact-page">
+  <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>paulxavieralvarez13@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>0422 307 885</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/paulxavier.alvarez/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/paulcito_paulcito/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/paul-xavier-alvarez-b14b8720b/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="https://drive.google.com/file/d/1ugPCuf60dhu__ofWnYZH_W4hfVEIpvNX/view?usp=share_link/" download class="btn">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Emai" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Reflection Page -->
+<div id="reflection">
+  <div class="container">
+    <div class="row">
+      <div class="reflection-col-1">
+        <img alt src="images/reflection.png">
+      </div>
+      <div class="reflection-col-2">
+        <h1 class="sub-title">Reflection</h1>
+        <p>Due to my unit “Business Web and Mobile Technologies,” I had the chance to create a portfolio website 
+        for myself, and it was a memorable experience.</p>
+        <p><br>Creating a portfolio website gave me many benefits. For instance, making my portfolio website 
+        highlighted the importance of paying attention to every detail. I realised that an error in coding–no 
+        matter how big or small, affected the functional properties of my website (i.e. my website would not work as I intended it to). 
+        As a result, I had to think critically and cautiously, which were skills that naturally came to me as I progressed through 
+        my portfolio website.</p>
+        <p><br>Additionally, this was also a new learning experience for me as I never really took the time to learn how to make a website 
+        let alone make my website. I realise that this assessment will also help me in the future as a professional web developer or 
+        analyst as it showcases my capabilities to future employers and gives them an idea of the contributions that I can make. 
+        Apart from this, I found joy in developing the website as it allowed me to express my creative side and innovativeness, which 
+        I believe are key factors in developing an eye-catching yet professional website.</p>
+        <p><br>However, developing a portfolio website was not without its challenges. For instance, it required a lot of time to plan what the 
+        website would look like along with the goal of making my personality stand out. This was a clear change from the typical structure of making a resume. 
+        In addition, I felt that the laboratory work given in classes merely provided the foundational knowledge to construct a website. 
+        There were more intricate details that I had to research independently to come up with the final product of my portfolio website. 
+        I had to consider the accessibility of my portfolio website and part of this required me to make the website responsive across different kinds of screen devices. 
+        However, details surrounding this were not covered extensively in class and as a result, I had to research how to achieve this. 
+        For example, whilst working on the adjustments to make the website responsive on smaller screens, I had to consider alternatives for this by making 
+        the menu list disappear on top of the website on smaller screens and making it simpler and neater by clicking a ‘three dotted line’ button to make the menu list appear.</p>
+        <p><br>I also found it time-consuming to perfectly nail the positioning, sizing, and spacing of images on my portfolio website. An image on a website is not solely achieved by 
+        simply attaching it. In fact, I had to perform several ‘trials and errors’ to know exactly where I wanted to put them relative to other images and texts. 
+        This is easier said than done as I had to take into account the number of pixels of the margin and padding. Apart from this, I had to figure out the best platform to use 
+        because we used GitHub most of the time in class, and committing the changes took a long time for me to see the website visually. Thankfully, I found that Visual Studio Code 
+        was more suited for me as it was faster in processing the website given that it processed it locally on my computer.  Moreover, it was also challenging to make the portfolio 
+        website user-friendly and simple while having to include so many different components. For instance, the project page looked very simple on the website, but it took a lot of 
+        effort and time to integrate it with descriptions and images of the projects along with its URL links. Furthermore, it took a long time to make sure the website is accessible to users with cognitive disabilities, and non-native speakers by using clear and simple descriptive language. 
+        I made sure there were proper headings, ensuring keyboard accessibility for users with motor impairments and the colour contrast between the text and background is readable for users with visual impairments.</p>
+        <p><br>To conclude, creating a portfolio website was both a positive and challenging experience. Although I was able to enhance a lot of professional skills, the process involved was 
+        extensive and demanding, which posed a lot of technical challenges. Despite the challenges I faced along the way, I was content with the way my portfolio website turned out and I look forward to making more high-quality websites in the future like this one.</p><br><p>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Paul Xavier Alvarez. Made for my unit ISYS3004</p>
+  </div>
+</div>
+
+
+
+
+
+<script src="js/main.js"></script>
+<script src="js/smallscreen.js"></script>
+
+</body>
+</html>
